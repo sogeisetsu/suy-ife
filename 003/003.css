@@ -1,0 +1,38 @@
+.jianli{
+    text-align: center;
+    background-color: beige;
+    width: 1000px;
+    border:blue;
+    border-block-color: yellow;
+    font-family: cursive;
+}
+.jianli h1{
+    text-align: center;
+    text-decoration: aqua wavy underline;
+    text-shadow: 4px 4px 5px rgba(252, 10, 10, 0.301);
+    color:rgb(65, 4, 65);
+    font-weight: bolder;
+    font-style: normal;
+    font-family: fantasy;
+}
+.zbiaotou{
+    font-style: normal;
+    background-color:rgba(204, 204, 55, 0.534);
+    color:rgb(20, 20, 7);
+    font-size: 32px;
+    line-height: 2em;
+    text-shadow: 5px 5px 15px rgba(5, 122, 138, 0.575);
+
+}
+.ybiaotou{
+    font-style: normal;
+    background-color: rgba(133, 204, 115, 0.562);
+    color: rgb(0, 0, 0);
+    text-shadow: 15px 1px 10px rgba(36, 85, 3, 0.452);
+    text-transform: none;
+    font-weight: bolder;
+    line-height: 1.4em;
+    font-size: 1.1em;
+
+
+}
