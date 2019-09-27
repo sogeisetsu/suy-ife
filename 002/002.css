@@ -5,3 +5,22 @@
     border:blue;
     border-block-color: yellow;
 }
+.biaotou{
+    font-style: normal;
+    background-color: aqua;
+    color: dimgray
+
+}
+.zbiaotou{
+    font-style: normal;
+    background-color:rgb(245, 245, 30);
+    color:rgb(20, 20, 7);
+    font-size: 32px;
+
+}
+.ybiaotou{
+    font-style: normal;
+    background-color: rgba(133, 204, 115, 0.562);
+    color: rgb(0, 0, 0)
+
+}
