@@ -1,0 +1,77 @@
+.jianli{
+    text-align: center;
+    background-color: beige;
+    width: 1000px;
+    border-style: outset;
+    border-color: bisque;
+    border-width: 2px;
+    border-block-color: yellow;
+    font-family: cursive;
+    list-style-type: square;    
+}
+.jianli h1{
+    text-align: center;
+    text-decoration: aqua wavy underline;
+    text-shadow: 4px 4px 5px rgba(252, 10, 10, 0.301);
+    color:rgb(65, 4, 65);
+    font-weight: bolder;
+    font-style: normal;
+    font-family: fantasy;
+}
+.zbiaotou{
+    font-style: normal;
+    background-color:rgba(204, 204, 55, 0.534);
+    color:rgb(20, 20, 7);
+    font-size: 32px;
+    line-height: 2em;
+    text-shadow: 5px 5px 15px rgba(5, 122, 138, 0.575);
+    border-width: 1.5px;
+    border-color: aquamarine;
+    border-style: inset;
+
+}
+.ybiaotou{
+    font-style: normal;
+    background-color: rgba(133, 204, 115, 0.562);
+    color: rgb(0, 0, 0);
+    text-shadow: 15px 1px 10px rgba(36, 85, 3, 0.452);
+    text-transform: none;
+    font-weight: bolder;
+    line-height: 1.4em;
+    font-size: 1.7em;
+    border-width: 1.5px;
+    border-color: aquamarine;
+    border-style: inset;
+    
+}
+.renxiang{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHigVgSxtW_zHGn8KzUM_-5JFr62Qq9c3-ewHNPhatttc9VC1E);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul.liebiao{
+    list-style-type: square;
+    text-align: left;
+}
+.jianli a:link{
+    color: black;
+    text-decoration:none;
+}
+.jianli a:visited{
+    color: rgba(18, 55, 87, 0.76);
+}
+.jianli a:hover{
+    background-color: rgba(102, 174, 236, 0.623);
+    border-bottom: dotted;
+}
+.jianli a:active{
+    background-color: aquamarine;
+    text-decoration: rgba(81, 81, 236, 0.692) wavy underline;
+
+}
+.bb{
+    color: red;
+}
+h2{
+    color: green;
+}
