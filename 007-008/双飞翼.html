@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #header{
+                height: 100px;
+                background-color: #cccccc;
+            }
+            #container{
+                overflow: hidden;
+                width: 100%;
+            }
+            .column{
+                float: left;
+                min-height: 200px;
+            }
+            #left{
+                width: 150px;
+                background-color: red; 
+                margin-left: -100%;
+            }
+            #center{
+                width: 100%;
+                background-color: green;
+            }
+            #right{
+                width: 200px;
+                background-color: blue;
+                margin-left: -200px;
+            }
+            #center-inno{
+                margin-left: 150px;
+                margin-right: 200px;
+                background-color: greenyellow;
+                min-height: 200px;
+            }
+
+            #footer{
+                height: 100px;
+                background-color: #cccccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">header</div>
+        <div id="container">
+            <div id="center" class="column">
+                <div id="center-inno">center</div>
+            </div>
+            <div id="left" class="column">left</div>
+            <div id="right" class="column">right</div>
+        </div>
+        <div id="footer">footer</div>
+    </body>
+</html>
