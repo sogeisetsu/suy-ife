@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="normalize.css">
+        <style>
+            body{
+                display: flex;
+                flex-flow: row wrap;
+                margin: 50px;
+            }
+            .div1{
+                /* transform: translate(1px,30px); */
+                /* transform: skew(0deg,30deg); */
+                transform: rotateX(300deg);
+                transform: rotateY(135deg);
+                border: 2px solid;
+                border-radius: 5px 10px;/*设置圆角*/
+                box-shadow: 2px 5px 10px red;/* 设置块阴影 */
+                margin: 0 auto;
+                width: 100px;
+                height: 150px;
+                background-color: #cccccc;
+                }
+                .div2{
+                    transform: rotate(30deg);
+                border: 2px solid;
+                border-radius: 5px 10px;/*设置圆角*/
+                box-shadow: 2px 5px 10px red;/* 设置块阴影 */
+                margin: 0 auto;
+                width: 100px;
+                height: 150px;
+                background-color: #cccccc;
+                }
+                .div3{
+                transform: scale(2,4);
+                transform: translate(10px,50px);
+                border: 2px solid;
+                border-radius: 5px 10px;/*设置圆角*/
+                box-shadow: 2px 5px 10px red;/* 设置块阴影 */
+                margin: 0 auto;
+                width: 100px;
+                height: 150px;
+                background-color: #cccccc;
+                }
+                .div4{
+                /* transform: translate(1px,30px); */
+                /* transform: skew(0deg,30deg); */
+                /* transform: skew(0deg,45deg); */
+                border: 2px solid;
+                border-radius: 5px 10px;/*设置圆角*/
+                box-shadow: 2px 5px 10px red;/* 设置块阴影 */
+                margin: 0 auto;
+                width: 100px;
+                height: 150px;
+                background-color: #cccccc;
+                transition:all 2s;
+            }
+                .div4:hover{
+                    transform: translateX(500px) translateY(500px) scale(0.8) rotate(360deg);
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <p>你好</p>
+        </div>
+        <div class="div2"><p>你好a1</p></div>
+        <div class="div3"><p>你好你好你好你好你好你好你好你好你好你好你好你好</p></div>
+        <div class="div4">点我我就跑</div>
+    </body>
+</html>

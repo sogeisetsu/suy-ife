@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                height: 200px;
+                width: 100px;
+                background-color: #cccccc;
+                margin: 20px auto;
+                transition: all 2s;/*先用transition指定时间*/
+            }
+            /* 制定div的hover，也就是鼠标放在div上时div的变化 */
+            div:hover{
+                background-color: aliceblue;
+                transform: scale(0.8) rotate(360deg);/* 这里指定一些需要transform的东西，比如scale、rotate、translate等 */
+            }
+        </style>
+    </head>
+    <body>
+        <div><p>点击发生变化</p></div>
+    </body>
+</html>
