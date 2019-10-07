@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div1{
+                background-color: #cccccc;
+                width: 100px;
+                height: 150px;
+                margin: 20px auto;
+                box-shadow: 2px 5px 10px red;
+                border-radius: 20px 5px;
+                border: 1px;
+                border-color: yellowgreen;
+                border-style: dashed;
+                animation: my 4s linear 1s infinite alternate;
+                position: relative;
+            }
+            @keyframes my{
+                0% {background: #cccccc; left: 0px; top: 0px;}
+                20% {background: yellowgreen; left: 200px; top: 0px;box-shadow: 7px 10px 15px rgb(9, 215, 230);}
+                50% {background: aqua; left: 200px; top: 250px;}
+                60% {background: blue;box-shadow: 2px 5px 10px yellowgreen;}
+                75% {background: blanchedalmond; left: 0px; top: 250px;}
+                100% {background: #cccccc; left: 0px; top: 0px;transform: scale(1.5) rotate(360deg);}
+
+
+            }
+        </style>
+        <script>
+            // alert("hello world");
+            document.write("<h1>hello world</h1>");
+            // document.getElementById("demo").innerHTML = "段落已修改。";
+            // document.getElementById("demoo").innerHTML="改了.";
+            // alert(document.getElementById("demoo").innerHTML);
+            // document.getElementById("demo").innerHTML = "段落已修改。";
+            function myFunction()
+            {
+                document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+            }
+            // document.getElementById("demoo").innerHTML="改了.";
+            console.log("111");// 向控制台写入内容
+            
+
+            
+        </script>
+    </head>
+    <body>
+        <div class="div1"><p>动画效果</p></div>
+        <p id="demo">我的第一个段落</p>
+        <button type="button" onclick="myFunction()">尝试一下</button>
+        <p id="demoo">北京欢迎你</p>
+        <button type="button" onclick="cc()">点一下</button>
+        <script>
+        document.getElementById("demo").innerHTML = "段落已修改。";
+        // alert(document.getElementById("demoo").innerHTML);
+        function cc(){
+            document.getElementById("demoo").innerHTML=Date();
+        }
+        </script>
+    </body>
+</html>
