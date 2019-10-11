@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#head{
+    width: 100%;
+    height: 605px;
+}
+.headback{
+    position: relative;
+    width: 100%;
+    height: 100%;;
+    z-index: -1;
+}
+.headbackcolor{
+    background-color: rgba(12, 10, 8, 0.61);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 605px;
+}
+.head-image{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.headfont{
+    position: relative;
+    margin: 0;
+    bottom: 605px;
+    text-align: center;
+}
+.headfonttittle,.headfonttext{
+    color: rgb(245, 245, 245);
+}
+.headfonttittle{
+    margin-top: 130px;
+    font-size: 3em;
+}
+.headfonttext{
+    font-weight: 300;
+}
+.headform{
+    position: relative;
+    bottom: 605px;
+    margin-top: 20px;;
+}

@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#head{
+    width: 100%;
+    ;
+}
+#headback{
+    background-color: #616161;
+    width: 100%;
+    ;
+}

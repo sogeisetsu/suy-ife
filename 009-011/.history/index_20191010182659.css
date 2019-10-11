@@ -1,0 +1,27 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#head{
+    width: 100%;
+    height: 990px;
+}
+.headback{
+    width: 100%;
+    height: 990px;
+
+}
+.headbackcolor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.65);
+}
+/* #headbackimage{
+    width: 100%;
+    height: 100%;
+} */
