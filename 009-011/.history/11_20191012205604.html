@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html,body{
+                margin:0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            .father{
+                width: 470px;
+                height: 340px;
+                /* margin: 20px auto; */
+                /* margin-top: 20px; */
+                margin-left: auto;
+                margin-right: auto;
+                overflow: hidden;
+                position: relative;
+            }
+            .son{
+                color: rgb(253, 255, 255);
+                margin: 0;
+                height: 340px;
+                width: 470px;
+                box-sizing: border-box;
+                position: absolute;
+                top: 340px;
+                transition: all 0.5s;
+                background-color: rgba(9, 26, 26, 0.116);
+                margin: 0;
+            }
+            .son p{
+                margin: 0;
+            }
+            .father:hover .son{
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="father">
+            <img src="sucai/张思远大.png" alt="zhang">
+            <div class="son">
+                <p>hello world</p>
+            </div>
+        </div>
+    </body>
+</html>

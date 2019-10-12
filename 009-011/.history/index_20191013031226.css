@@ -411,7 +411,7 @@ input{
     font-weight: 300;
 }
 .p7text .text p{
-    /* color: rgba(14, 14, 14, 0.644); */
+    color: rgba(14, 14, 14, 0.644);
     line-height: 2em;
     /* font-size: 2em; */
 }
@@ -429,7 +429,7 @@ input{
 .contacts-item {
     display: flex;
 }
-.contacts-item p{  
+.contacts p{  
     margin: 0;
     margin-bottom: 30px;
     padding-left: 20px;
@@ -437,10 +437,7 @@ input{
 	font-weight: bolder;
 	line-height: 26px;
 	letter-spacing: 0px;
-	color: #1b0202;
-}
-.contacts{
-    margin-top: 80px;
+	color: #141414;
 }
 .contacts .icon {
     display: block;
@@ -448,15 +445,4 @@ input{
     height: 25px;
     background-position: center center;
     background-repeat: no-repeat;
-}
-.contacts .icon-map {
-    position: relative;
-    top: 6px;
-    background-image: url("sucai/MapIcon.png");
-}
-.contacts .icon-tel {
-    background-image: url("sucai/PhoneIcon.png");
-}
-.contacts .icon-email {
-    background-image: url("sucai/MailIcon.png");
 }

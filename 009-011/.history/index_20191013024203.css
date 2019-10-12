@@ -411,52 +411,6 @@ input{
     font-weight: 300;
 }
 .p7text .text p{
-    /* color: rgba(14, 14, 14, 0.644); */
-    line-height: 2em;
-    /* font-size: 2em; */
-}
-/* .p7text .text .ul{
-    margin-top: 60px;
-    font-weight: 500;
-    line-height: 2em;
-    list-style-position: outside;
-    list-style-type: none;
-}
-.p7text .text .ul p{
-    margin-bottom: 20px;
-    font-size: 1.4em;
-} */
-.contacts-item {
-    display: flex;
-}
-.contacts-item p{  
-    margin: 0;
-    margin-bottom: 30px;
-    padding-left: 20px;
-	font-size: 16px;
-	font-weight: bolder;
-	line-height: 26px;
-	letter-spacing: 0px;
-	color: #1b0202;
-}
-.contacts{
-    margin-top: 80px;
-}
-.contacts .icon {
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.contacts .icon-map {
-    position: relative;
-    top: 6px;
-    background-image: url("sucai/MapIcon.png");
-}
-.contacts .icon-tel {
-    background-image: url("sucai/PhoneIcon.png");
-}
-.contacts .icon-email {
-    background-image: url("sucai/MailIcon.png");
+    color: rgba(14, 14, 14, 0.644);
+    line-height: 2.5em;
 }

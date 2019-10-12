@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+        .father {
+            width: 300px;
+            height: 280px;
+            border: 1px solid #ccc;
+            margin: 50px auto;
+        }
+        .father  img{
+                width: 300px;
+                height: 200px;
+            }
+            .son{
+                width: 300px;
+                height:80px;
+                overflow: hidden;
+    
+            }
+            .son1:hover{
+                animation: sport 1s;
+                /* transform: translateY(0px); */
+                width: 300px;
+                height:80px;
+                background: #cd0200;
+            }
+        @keyframes sport {
+                0%   {transform: translateY(80px);opacity: 1;}
+                25%  {transform: translateY(50px);opacity: 1}
+                50%  {transform: translateY(20px);opacity: 1}
+                100% {transform: translateY(0px);opacity: 1}
+            }
+            h3,p{
+                color: #000000;
+                font-size: 13px;
+            }
+            h3{
+                padding: 10px 0 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="father">
+            <img src="image/anli1.png">
+        <div class="son">
+            <div class="son1">
+                <h3>标题标题</h3>
+                <p>内容内容内容内容内容内容内容内容</p>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
