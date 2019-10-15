@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+</head>
+<body>        
+    <input id="first-number" type="number" value="0" placeholder="第一个数字">
+    <input id="second-number" type="number" value="0" placeholder="第二个数字">
+    <button id="add-btn" onclick="jia()">加</button>
+    <button id="minus-btn" onclick="jian()">减</button>
+    <button id="times-btn" onclick="chen()">乘</button>
+    <button id="divide-btn" onclick="chu()">除</button>
+    <p id="result">运算结果</p>
+    <script>
+        function jia(){
+            one=document.getElementById("first-number").value;
+            two=document.getElementById("second-number").value;
+            console.log("原始"+typeof(one)+one);
+            one=parseFloat(one);
+            two=parseFloat(two);
+            console.log("结果"+typeof(one)+one)
+            result=one+two;
+            document.getElementById("result").innerHTML="运算结果："+result;
+        }
+        function jian(){
+            one=document.getElementById("first-number").value;
+            two=document.getElementById("second-number").value;
+            console.log("原始"+typeof(one)+one);
+            one=parseFloat(one);
+            two=parseFloat(two);
+            console.log("结果"+typeof(one)+one)
+            result=one-two;
+            document.getElementById("result").innerHTML="运算结果："+result;
+        }
+        function chen(){
+            one=document.getElementById("first-number").value;
+            two=document.getElementById("second-number").value;
+            console.log("原始"+typeof(one)+one);
+            one=parseFloat(one);
+            two=parseFloat(two);
+            console.log("结果"+typeof(one)+one)
+            result=one*two;
+            document.getElementById("result").innerHTML="运算结果："+result;
+        }
+        function chu(){
+            one=document.getElementById("first-number").value;
+            two=document.getElementById("second-number").value;
+            console.log("原始"+typeof(one)+one);
+            one=parseFloat(one);
+            two=parseFloat(two);
+            console.log("结果"+typeof(one)+one)
+            result=one/two;
+            document.getElementById("result").innerHTML="运算结果："+result;
+        }
+    </script>
+</body>
+</html>
