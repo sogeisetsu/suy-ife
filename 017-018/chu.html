@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+    <style>
+        input{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>        
+        <input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
+        <input id="bin-bit" type="number" placeholder="输入转化后二进制数字位数">
+        <button id="trans-btn" onclick="jj()">转化为二进制</button>
+        <p id="result">运算结果</p>
+<script>
+
+function dec2bin(decNumber) {
+    // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
+    try{
+        console.log(decNumber);
+        if (decNumber<=0||decNumber.constructor!=Number) throw "输入必须为一个非负整数";
+        var z=decNumber;
+        var a=""
+        for(var i=0;;i++){
+            y=z%2;             
+            a=String(y)+a;
+           if(z==1){
+                break;
+            }
+            z=parseInt(z/2);
+        }
+        a=Number(a);
+        return a;
+    }
+    catch(err){
+        document.getElementById("result").innerHTML=err;
+    }
+}
+// console.log(typeof(c))
+// console.log(c)
+// 实现党点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
+// Some codeing
+function jj(){
+    var c=Number(document.getElementById("dec-number").value);
+    d=dec2bin(c);
+    // d=new Number(d);
+    weishu=document.getElementById("bin-bit").value;
+    weishu=Number(weishu);
+    long=String(d).length
+    console.log(long);
+    console.log(weishu);
+    if(weishu>=long){
+        x=weishu-long;
+        for(var i=0;i<x;i++){
+            d="0"+String(d);
+            // d=Number(d);
+        }
+    }else{
+        d="位数过小，请重新输入，最小位数为："+long;
+        console.log(typeof(d));
+    }
+    document.getElementById("result").innerHTML=d;
+}
+
+    </script>
+</body>
+</html>
