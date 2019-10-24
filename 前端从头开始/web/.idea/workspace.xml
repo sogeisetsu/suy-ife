@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="289d9609-2012-4bd1-a01c-e04281d9e366" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SbpKKr4QwHsjpojETWWAB9Ntrx" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/001.html" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="EMBER_SERVE_CONFIGURATION" factoryName="Ember serve configuration factory">
+      <option name="PORT" value="" />
+      <option name="HOST" value="" />
+      <option name="ENVIRONMENT" value="development" />
+      <option name="OUTPUT_PATH" value="" />
+      <option name="WATCHER" value="" />
+      <option name="PROXY" value="" />
+      <option name="PROXY_SECURE" value="true" />
+      <option name="PROXY_TRANSPARENT" value="true" />
+      <option name="LIVE_RELOAD" value="true" />
+      <option name="LIVE_RELOAD_HOST" value="" />
+      <option name="LIVE_RELOAD_BASE_URL" value="" />
+      <option name="LIVE_RELOAD_PORT" value="" />
+      <option name="SSL" value="false" />
+      <option name="SSL_KEY" value="" />
+      <option name="SSL_CERT" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="EMBER_TEST_CONFIGURATION" factoryName="Ember test configuration factory">
+      <option name="ENVIRONMENT" value="test" />
+      <option name="CONFIG_FILE" value="" />
+      <option name="HOST" value="" />
+      <option name="TEST_PORT" value="" />
+      <option name="FILTER" value="" />
+      <option name="FILTER_OPTION" value="ALL" />
+      <option name="MODULE" value="" />
+      <option name="WATCHER" value="" />
+      <option name="TESTEM_DEBUG" value="" />
+      <option name="TEST_PAGE" value="" />
+      <option name="PATH" value="" />
+      <option name="QUERY" value="" />
+      <option name="REPORTER" value="" />
+      <option name="LAUNCH" value="" />
+      <option name="LAUNCH_OPTION" value="DEFAULT" />
+      <method v="2" />
+    </configuration>
+    <configuration name="调试" type="JavascriptDebugType" editBeforeRun="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/web/表单.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" editBeforeRun="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/web/020.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="289d9609-2012-4bd1-a01c-e04281d9e366" name="Default Changelist" comment="" />
+      <created>1571842084926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571842084926</updated>
+      <workItem from="1571842090226" duration="3961000" />
+      <workItem from="1571846721382" duration="10750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
