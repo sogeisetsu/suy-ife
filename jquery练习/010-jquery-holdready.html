@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>010-jquery-holdready</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        // $.holdReady(true)
+        $(function () {
+            alert("hello");
+            var $button=$("button");
+            console.log($button);
+            console.log($button[0]);
+            $button[0].onclick=()=>{
+                alert("111");
+            }
+        });
+
+        // $button.onclick=()=>{
+        //     alert("点击button")
+        // }
+    </script>
+</head>
+<body>
+<button>按钮</button>
+<script>
+    // let button=document.getElementsByTagName("button")[0];
+    // console.log(button);
+    // button.onclick=function () {
+    //     alert("hello world");
+    //     $.holdReady(false);
+    // }
+</script>
+</body>
+</html>

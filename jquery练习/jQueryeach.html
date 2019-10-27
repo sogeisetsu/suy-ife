@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jqueryeach</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+<!--        原生foreach顺序先value再index-->
+        arr=[1,2,34,5,56];
+        arr.forEach(function (value, index) {
+            console.log(index,value);
+        })
+        $.each(arr,function(index,value){
+            console.log(index,value);
+        })
+    //    map
+    </script>
+</head>
+<body>
+
+</body>
+</html>

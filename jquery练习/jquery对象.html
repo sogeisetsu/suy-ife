@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery对象</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+<!--        jquery的对象是一个伪数组-->
+        $(function () {
+            let $div=$("div");
+            console.log($div);
+        //    有0到length-1的属性和length属性
+
+        })
+    </script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            /*margin: 0;*/
+            margin-top: 10px;
+            border: 2px solid #ffb6d7;
+            border-radius: 20px;
+            background-color: #ff15cc;
+            outline: none;
+            box-shadow: 2px 4px 8px rosybrown;
+            font-family: "Microsoft YaHei UI";
+            color: #cccccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>div1</div>
+<div>div2</div>
+<div>div3</div>
+</body>
+</html>

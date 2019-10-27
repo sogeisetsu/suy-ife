@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery第一天学习</title>
+    <script src="jquery-1.9.1.js"></script>
+    <script>
+        //原生js
+        window.onload=function (ev){
+        //    使用js获取img
+            var img =document.getElementsByTagName("img")[0];
+            console.log(img.constructor);
+            console.log(img.width);
+        };
+        //jQuery
+        $(document).ready(function(){
+            alert("hello world");
+            //原生和js的区别
+            //拿到入口dom
+            var $img=$("img")[0];
+            // console.log($img);
+            // console.log($img.width)
+            var $width= $img.width;
+            console.log($width);
+        });
+        //原生和js的区别
+    </script>
+</head>
+<body>
+    <div>
+        <p>第一次使用jquery</p>
+    </div>
+    <img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-getting-started/c75872d60ab3464aadd28acbd466c0eaaa5be402/en/images/pi-plug-in.gif" alt="树莓派图片">
+
+
+</body>
+</html>

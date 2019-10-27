@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery冲突</title>
+    <script src="jquery-1.9.1.js"></script>
+    <script>
+        var c=jQuery.noConflict()
+        c(function () {
+            alert("解决冲突")
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
